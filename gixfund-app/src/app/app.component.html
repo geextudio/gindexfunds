@@ -1,7 +1,5 @@
-<!-- NG-ZORRO-MOBILE -->
-<!-- <a href="https://github.com/NG-ZORRO/ng-zorro-antd-mobile" target="_blank" style="display: flex;align-items: center;justify-content: center;height: 100%;width: 100%;">
-  <img height="300" src="https://img.alicdn.com/tfs/TB15EhGJwHqK1RjSZFPXXcwapXa-500-539.png">
-</a> -->
-<div class="slogan">
-  <span class='slogan-title'> 相对于人类行为和状态的诸多不确定性，指数基金表现的“稳定性”似乎更有规律可循. </span>
+
+<div class="slogan" [title]='title' (click)="share()">
+  <span class='slogan-title'> {{message}} </span>
 </div>
+<app-gixfooter ></app-gixfooter>
