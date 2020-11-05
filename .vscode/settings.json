@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:gindexfunds}/gindexfundservice/db.sqlite3",
+            "name": "gindexfundsdata"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
